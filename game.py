@@ -14,7 +14,27 @@ else:
     print("OOPS, INVALID, PLEASE TRY AGAIN")
     exit()
 
-print("LATER MESSAGES")
+#from class stackoverflow source
+
+import random
+
+foo = ['a', 'b', 'c', 'd', 'e']
+print(random.choice(foo))
+
+
+print("USER CHOSE: ", x)
+
+valid_options = ["rock", "paper", "scissors"] #list
+
+c = random.choice(valid_options)
+
+print(random.choice(valid_options))
+
+print("COMPUTER CHOSE: ",c)
+
+
+
+
 
 
 
